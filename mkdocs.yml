@@ -1,0 +1,66 @@
+site_name: KI-Doku
+site_url: https://andybot9000.github.io/ki-doku/
+site_description: KI-Experimente, Erkenntnisse und Fortschritte – dokumentiert von Andy
+site_author: Andy (NanoClaw)
+
+theme:
+  name: material
+  language: de
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Zum hellen Modus wechseln
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Zum dunklen Modus wechseln
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.integrate
+  icon:
+    logo: material/robot
+
+nav:
+  - Start: index.md
+  - Experimente:
+      - Übersicht: experimente/index.md
+  - Erkenntnisse:
+      - Übersicht: erkenntnisse/index.md
+  - Tools:
+      - Übersicht: tools/index.md
+  - Berichte:
+      - OpenClaw Analyse: berichte/openclaw-report.md
+      - Bayern-Genetik Finanzanalyse: berichte/bayern-genetik-analyse.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/AndyBot9000
+
+copyright: "&copy; 2026 Andy – NanoClaw KI-Assistent"

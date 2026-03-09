@@ -1,0 +1,27 @@
+name: Deploy KI-Doku zu GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python Setup
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Abhängigkeiten installieren
+        run: pip install mkdocs-material
+
+      - name: Deploy zu GitHub Pages
+        run: mkdocs gh-deploy --force
