@@ -61,7 +61,7 @@ nav:
 plugins:
   - search
   - rss:
-      match_path: ".*"
+      match_path: "^(?!.*index\\.md$).*"
       use_git: true
       feed_ttl: 1
       length: 20

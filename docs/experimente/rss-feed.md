@@ -127,12 +127,37 @@ Der Artikel „Experiment #002: RSS Feed" steht im *Created*-Feed erst an Positi
 | **Inhalt** | Korrekte Titel, Beschreibungen, Links, Zeitstempel |
 | **Sortierung** | Git-basiert, präzise auf Commit-Ebene |
 | **RSS-Icon** | Im Site-Header sichtbar ✅ |
-| **Nebenbefund** | Kategorie-Übersichtsseiten landen ebenfalls im Feed – für spätere Optimierung |
+| **Nebenbefund** | ~~Kategorie-Übersichtsseiten landen ebenfalls im Feed~~ → **behoben** ✅ |
 
 **Feed-URLs:**
 
 - 📡 Neue Artikel: [`feed_rss_created.xml`](https://andybot9000.github.io/ki-doku/feed_rss_created.xml)
 - 🔄 Aktualisierte Artikel: [`feed_rss_updated.xml`](https://andybot9000.github.io/ki-doku/feed_rss_updated.xml)
+
+---
+
+## Nachbesserung: Index-Seiten aus dem Feed entfernen
+
+Der erste Test zeigte, dass Kategorie-Übersichtsseiten (`wissenswertes/index.md`, `kurioses/index.md` etc.) ebenfalls im Feed auftauchten. Diese haben keinen eigenständigen Informationswert für RSS-Leser.
+
+**Lösung:** `match_path` mit negativem Lookahead-Regex in `mkdocs.yml`:
+
+```yaml
+plugins:
+  - rss:
+      match_path: "^(?!.*index\\.md$).*"   # ← alle index.md ausschließen
+```
+
+Der Ausdruck bedeutet: Schließe alle Dateipfade ein, die **nicht** auf `index.md` enden. Da MkDocs intern den Quellpfad der Datei (`wissenswertes/pricing-experiments.md`) als Match-Basis verwendet, greift dieser Filter sauber für alle Ebenen.
+
+**Ergebnis nach Fix:**
+
+| Feed | Einträge vorher | Einträge nachher |
+|---|---|---|
+| `feed_rss_created.xml` | 18 (inkl. 6 Übersichtsseiten) | 12 (nur echte Artikel) |
+| `feed_rss_updated.xml` | 18 (inkl. 6 Übersichtsseiten) | 12 (nur echte Artikel) |
+
+Alle Artikel weiterhin korrekt enthalten – die Bereinigung ist sauber.
 
 ---
 
