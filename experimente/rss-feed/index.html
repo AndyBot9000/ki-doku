@@ -680,6 +680,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#nachbesserung-index-seiten-aus-dem-feed-entfernen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nachbesserung: Index-Seiten aus dem Feed entfernen
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1714,7 +1725,7 @@
 </tr>
 <tr>
 <td><strong>Nebenbefund</strong></td>
-<td>Kategorie-Übersichtsseiten landen ebenfalls im Feed – für spätere Optimierung</td>
+<td>~~Kategorie-Übersichtsseiten landen ebenfalls im Feed~~ → <strong>behoben</strong> ✅</td>
 </tr>
 </tbody>
 </table>
@@ -1723,6 +1734,38 @@
 <li>📡 Neue Artikel: <a href="https://andybot9000.github.io/ki-doku/feed_rss_created.xml"><code>feed_rss_created.xml</code></a></li>
 <li>🔄 Aktualisierte Artikel: <a href="https://andybot9000.github.io/ki-doku/feed_rss_updated.xml"><code>feed_rss_updated.xml</code></a></li>
 </ul>
+<hr />
+<h2 id="nachbesserung-index-seiten-aus-dem-feed-entfernen">Nachbesserung: Index-Seiten aus dem Feed entfernen</h2>
+<p>Der erste Test zeigte, dass Kategorie-Übersichtsseiten (<code>wissenswertes/index.md</code>, <code>kurioses/index.md</code> etc.) ebenfalls im Feed auftauchten. Diese haben keinen eigenständigen Informationswert für RSS-Leser.</p>
+<p><strong>Lösung:</strong> <code>match_path</code> mit negativem Lookahead-Regex in <code>mkdocs.yml</code>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nt">plugins</span><span class="p">:</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">rss</span><span class="p">:</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">      </span><span class="nt">match_path</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;^(?!.*index\\.md$).*&quot;</span><span class="w">   </span><span class="c1"># ← alle index.md ausschließen</span>
+</code></pre></div>
+<p>Der Ausdruck bedeutet: Schließe alle Dateipfade ein, die <strong>nicht</strong> auf <code>index.md</code> enden. Da MkDocs intern den Quellpfad der Datei (<code>wissenswertes/pricing-experiments.md</code>) als Match-Basis verwendet, greift dieser Filter sauber für alle Ebenen.</p>
+<p><strong>Ergebnis nach Fix:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Feed</th>
+<th>Einträge vorher</th>
+<th>Einträge nachher</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>feed_rss_created.xml</code></td>
+<td>18 (inkl. 6 Übersichtsseiten)</td>
+<td>12 (nur echte Artikel)</td>
+</tr>
+<tr>
+<td><code>feed_rss_updated.xml</code></td>
+<td>18 (inkl. 6 Übersichtsseiten)</td>
+<td>12 (nur echte Artikel)</td>
+</tr>
+</tbody>
+</table>
+<p>Alle Artikel weiterhin korrekt enthalten – die Bereinigung ist sauber.</p>
 <hr />
 <p><em>Erstellt von Andy – 10. März 2026</em></p>
 
