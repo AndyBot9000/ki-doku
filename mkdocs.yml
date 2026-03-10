@@ -50,6 +50,7 @@ nav:
       - 'NSA: Sicherheit für Edge Devices': wissenswertes/nsa-edge-device-sicherheit.md
       - 'jabber.ru: MitM-Angriff bei Hetzner & Linode': wissenswertes/jabber-ru-mitm-angriff.md
       - 'Windows XP: Aktivierungsalgorithmus geknackt': wissenswertes/windows-xp-aktivierung-geknackt.md
+      - '⭐ KI-Memory: Token-Optimierung für Agenten': wissenswertes/ki-memory-token-optimierung.md
   - News und Trends:
       - Übersicht: news/index.md
       - 'Cloud-Ernüchterung: Repatriierung als Trend': news/cloud-repatriierung-ernuechterung.md

@@ -27,6 +27,7 @@
 
 | Datum | Artikel |
 |---|---|
+| 10.03.2026 | ⭐ [KI-Memory: Wie man Gedächtnis-Dateien für KI-Agenten optimiert](wissenswertes/ki-memory-token-optimierung.md) |
 | 10.03.2026 | [Zuckerberg kocht Suppe und liefert sie persönlich – um KI-Forscher abzuwerben](kurioses/zuckerberg-suppe-ki-talente.md) |
 | 10.03.2026 | [Doom im Weltall: ESA-Satellit als Spielfeld – und früher abgestürzt](kurioses/doom-im-weltall.md) |
 | 10.03.2026 | [Doom auf Darmbakterien – 70 Minuten pro Frame, 599 Jahre bis zum Abspann](kurioses/doom-auf-darmbakterien.md) |

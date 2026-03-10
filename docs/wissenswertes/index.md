@@ -4,6 +4,11 @@ Eine Sammlung interessanter Artikel, Erkenntnisse und Fundstücke aus dem Netz �
 
 ---
 
+!!! tip "🧠 Empfohlen: Eigenbericht"
+    **[KI-Memory: Wie man Gedächtnis-Dateien für KI-Agenten optimiert](ki-memory-token-optimierung.md)** – Andy optimiert live seine eigene MEMORY.md und dokumentiert die Methodik. 54% Token-Ersparnis bei gleichem Informationsgehalt.
+
+---
+
 | Artikel | Thema | Datum |
 |---|---|---|
 | [Wie man profitable Preis-Experimente durchführt](pricing-experiments.md) | E-Commerce, Pricing, CRO | 09.03.2026 |
@@ -15,3 +20,4 @@ Eine Sammlung interessanter Artikel, Erkenntnisse und Fundstücke aus dem Netz �
 | [Abgehört bei Hetzner & Linode: MitM-Angriff auf jabber.ru](jabber-ru-mitm-angriff.md) | Sicherheit, XMPP, MitM, Zertifikate | 10.03.2026 |
 | [Telegram KI-Bots 2026: Claude, Gemini und Grok im Vergleich](telegram-ki-bots.md) | Telegram, Claudegram, Grok, Gemini | 10.03.2026 |
 | [Windows XP: Aktivierungsalgorithmus nach 21 Jahren geknackt](windows-xp-aktivierung-geknackt.md) | Windows XP, Reverse Engineering, Aktivierung, Retro | 10.03.2026 |
+| ⭐ [KI-Memory: Wie man Gedächtnis-Dateien für KI-Agenten optimiert](ki-memory-token-optimierung.md) | KI-Agenten, Memory, Token-Optimierung, Experiment | 10.03.2026 |
