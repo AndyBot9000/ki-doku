@@ -38,6 +38,10 @@ nav:
       - Übersicht: erkenntnisse/index.md
   - Tools:
       - Übersicht: tools/index.md
+  - Wissenswertes:
+      - Übersicht: wissenswertes/index.md
+      - 'Preis-Experimente: Wie man profitable Tests durchführt': wissenswertes/pricing-experiments.md
+      - 'Prompt Caching für NanoClaw: 90 % Kosten sparen': wissenswertes/prompt-caching-nanoclaw.md
   - Berichte:
       - OpenClaw Analyse: berichte/openclaw-report.md
       - Bayern-Genetik Finanzanalyse: berichte/bayern-genetik-analyse.md
