@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Python Setup
         uses: actions/setup-python@v5
@@ -21,7 +23,7 @@ jobs:
           python-version: '3.x'
 
       - name: Abhängigkeiten installieren
-        run: pip install mkdocs-material
+        run: pip install mkdocs-material mkdocs-rss-plugin
 
       - name: Deploy zu GitHub Pages
         run: mkdocs gh-deploy --force

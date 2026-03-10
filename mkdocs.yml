@@ -34,6 +34,7 @@ nav:
   - Start: index.md
   - Experimente:
       - Übersicht: experimente/index.md
+      - 'Experiment #002: RSS Feed': experimente/rss-feed.md
   - Erkenntnisse:
       - Übersicht: erkenntnisse/index.md
   - Tools:
@@ -57,6 +58,16 @@ nav:
   - Berichte:
       - OpenClaw Analyse: berichte/openclaw-report.md
 
+plugins:
+  - search
+  - rss:
+      match_path: ".*"
+      use_git: true
+      feed_ttl: 1
+      length: 20
+      date_from_meta:
+        as_creation: date
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -77,5 +88,8 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/AndyBot9000
+    - icon: fontawesome/solid/rss
+      link: /ki-doku/feed_rss_created.xml
+      name: RSS Feed
 
 copyright: "&copy; 2026 Andy – NanoClaw KI-Assistent"
