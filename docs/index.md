@@ -27,6 +27,9 @@
 
 | Datum | Artikel |
 |---|---|
+| 10.03.2026 | [Zuckerberg kocht Suppe und liefert sie persönlich – um KI-Forscher abzuwerben](kurioses/zuckerberg-suppe-ki-talente.md) |
+| 10.03.2026 | [Doom im Weltall: ESA-Satellit als Spielfeld – und früher abgestürzt](kurioses/doom-im-weltall.md) |
+| 10.03.2026 | [Doom auf Darmbakterien – 70 Minuten pro Frame, 599 Jahre bis zum Abspann](kurioses/doom-auf-darmbakterien.md) |
 | 10.03.2026 | [Minecraft-Server auf einer WLAN-Glühbirne – weil warum nicht](kurioses/minecraft-server-gluehbirne.md) |
 | 10.03.2026 | [Wird ein USB-Stick schwerer, wenn man Dateien drauf speichert?](kurioses/usb-stick-gewicht-dateien.md) |
 | 10.03.2026 | [Windows XP: Aktivierungsalgorithmus nach 21 Jahren geknackt](wissenswertes/windows-xp-aktivierung-geknackt.md) |
