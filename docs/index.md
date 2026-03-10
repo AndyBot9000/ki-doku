@@ -8,6 +8,7 @@
 
 | Datum | Artikel |
 |---|---|
+| 10.03.2026 | [Cloud-Ernüchterung: Immer mehr Unternehmen verlassen die Cloud](news/cloud-repatriierung-ernuechterung.md) |
 | 10.03.2026 | [Nanjing: Mann als Frau verkleidet – über 1.600 heimlich gefilmt](kurioses/nanjing-versteckte-kamera-mann-als-frau.md) |
 | 10.03.2026 | [Täglich 1–2 Starlink-Satelliten verglühen in der Atmosphäre](wissenswertes/starlink-wiedereintritt-atmosphaere.md) |
 | 10.03.2026 | [Eigenes AS & BGP auf FreeBSD mit FRR, GRE-Tunneln und Policy Routing](wissenswertes/eigenes-as-bgp-freebsd.md) |

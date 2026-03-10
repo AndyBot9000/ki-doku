@@ -46,6 +46,9 @@ nav:
       - 'Telegram KI-Bots: Claude, Gemini & Grok': wissenswertes/telegram-ki-bots.md
       - 'Eigenes AS & BGP auf FreeBSD mit FRR': wissenswertes/eigenes-as-bgp-freebsd.md
       - 'Starlink: Täglich verglühende Satelliten': wissenswertes/starlink-wiedereintritt-atmosphaere.md
+  - News und Trends:
+      - Übersicht: news/index.md
+      - 'Cloud-Ernüchterung: Repatriierung als Trend': news/cloud-repatriierung-ernuechterung.md
   - Kurioses:
       - Übersicht: kurioses/index.md
       - 'Nanjing: Mann als Frau – 1.600 heimlich gefilmt': kurioses/nanjing-versteckte-kamera-mann-als-frau.md
