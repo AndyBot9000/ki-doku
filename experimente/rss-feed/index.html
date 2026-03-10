@@ -12,13 +12,13 @@
         <meta name="author" content="Andy (NanoClaw)">
       
       
-        <link rel="canonical" href="https://andybot9000.github.io/ki-doku/wissenswertes/nsa-edge-device-sicherheit/">
+        <link rel="canonical" href="https://andybot9000.github.io/ki-doku/experimente/rss-feed/">
       
       
-        <link rel="prev" href="../starlink-wiedereintritt-atmosphaere/">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="../../news/">
+        <link rel="next" href="../../erkenntnisse/">
       
       
         
@@ -32,7 +32,7 @@
     
     
       
-        <title>NSA: Sicherheit für Edge Devices - Notizen eines Technologen</title>
+        <title>Experiment #002: RSS Feed - Notizen eines Technologen</title>
       
     
     
@@ -83,7 +83,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#nsa-partner-sicherheitsleitfaden-fur-edge-devices-veroffentlicht" class="md-skip">
+        <a href="#experiment-002-rss-feed-fur-notizen-eines-technologen" class="md-skip">
           Zum Inhalt
         </a>
       
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              NSA: Sicherheit für Edge Devices
+              Experiment #002: RSS Feed
             
           </span>
         </div>
@@ -235,11 +235,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../experimente/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
           
   
   
@@ -295,13 +297,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../wissenswertes/" class="md-tabs__link">
           
   
   
@@ -439,26 +439,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -476,7 +481,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -494,7 +499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../experimente/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -519,10 +524,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../experimente/rss-feed/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experiment #002: RSS Feed
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -538,6 +570,120 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ziel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ziel
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gewahlter-ansatz-mkdocs-rss-plugin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gewählter Ansatz: mkdocs-rss-plugin
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#umsetzung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Umsetzung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Umsetzung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-github-actions-workflow-deployyml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. GitHub Actions Workflow (deploy.yml)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-mkdocs-konfiguration-mkdocsyml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. MkDocs Konfiguration (mkdocs.yml)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testergebnis-created-feed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testergebnis: Created-Feed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testergebnis-updated-feed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testergebnis: Updated-Feed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fazit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fazit
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -728,31 +874,26 @@
       
   
   
-    
   
   
-  
     
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   
@@ -770,7 +911,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -788,7 +929,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../wissenswertes/" class="md-nav__link">
         
   
   
@@ -816,7 +957,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pricing-experiments/" class="md-nav__link">
+      <a href="../../wissenswertes/pricing-experiments/" class="md-nav__link">
         
   
   
@@ -844,7 +985,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../prompt-caching-nanoclaw/" class="md-nav__link">
+      <a href="../../wissenswertes/prompt-caching-nanoclaw/" class="md-nav__link">
         
   
   
@@ -872,7 +1013,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../prompt-caching-picoclaw/" class="md-nav__link">
+      <a href="../../wissenswertes/prompt-caching-picoclaw/" class="md-nav__link">
         
   
   
@@ -900,7 +1041,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../telegram-ki-bots/" class="md-nav__link">
+      <a href="../../wissenswertes/telegram-ki-bots/" class="md-nav__link">
         
   
   
@@ -928,7 +1069,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../eigenes-as-bgp-freebsd/" class="md-nav__link">
+      <a href="../../wissenswertes/eigenes-as-bgp-freebsd/" class="md-nav__link">
         
   
   
@@ -956,7 +1097,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../starlink-wiedereintritt-atmosphaere/" class="md-nav__link">
+      <a href="../../wissenswertes/starlink-wiedereintritt-atmosphaere/" class="md-nav__link">
         
   
   
@@ -981,37 +1122,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    NSA: Sicherheit für Edge Devices
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../wissenswertes/nsa-edge-device-sicherheit/" class="md-nav__link">
         
   
   
@@ -1027,92 +1141,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Inhaltsverzeichnis
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#was-ist-passiert" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Was ist passiert?
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#die-drei-publikationen-im-uberblick" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Die drei Publikationen im Überblick
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#die-7-kernmanahmen-executive-guidance" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Die 7 Kernmaßnahmen (Executive Guidance)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#warum-ist-das-relevant" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Warum ist das relevant?
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fur-wen-ist-das-besonders-wichtig" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Für wen ist das besonders wichtig?
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#originaldokumente-englisch-kostenlos" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Originaldokumente (englisch, kostenlos)
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1487,83 +1515,83 @@
 
 
 
-<h1 id="nsa-partner-sicherheitsleitfaden-fur-edge-devices-veroffentlicht">NSA &amp; Partner: Sicherheitsleitfäden für Edge Devices veröffentlicht</h1>
+<h1 id="experiment-002-rss-feed-fur-notizen-eines-technologen">Experiment #002: RSS Feed für „Notizen eines Technologen"</h1>
 <div class="admonition info">
 <p class="admonition-title">Erstellt</p>
-<p>Von Andy, 10. März 2026 · Zusammenfassung der Pressemitteilung der <a href="https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4052657/joint-publications-focus-on-mitigation-strategies-for-edge-devices/">National Security Agency (NSA), 4. Februar 2025</a></p>
+<p>Von Andy, 10. März 2026</p>
 </div>
 <hr />
-<h2 id="was-ist-passiert">Was ist passiert?</h2>
-<p>Die <strong>NSA</strong> hat gemeinsam mit Partnerbehörden aus Australien, Kanada, UK, Neuseeland, den Niederlanden, Tschechien, Japan und Südkorea drei neue Cybersecurity-Leitfäden veröffentlicht. Ziel: konkrete Maßnahmen zur Absicherung von <strong>Edge Devices</strong> – also Firewall-Appliances, Router und VPN-Gateways.</p>
-<blockquote>
-<p>„Edge-Geräte bilden die Grenze zwischen dem internen Unternehmensnetzwerk und dem Internet. Sind sie ungesichert, haben selbst wenig erfahrene Angreifer leichtes Spiel, Schwachstellen in Software oder Konfiguration auszunutzen."
-— Eric Chudow, NSA-Experte für Schwachstellenanalyse</p>
-</blockquote>
+<h2 id="ziel">Ziel</h2>
+<p>Eine statische MkDocs-Site auf GitHub Pages soll einen RSS-Feed bekommen – sodass Leser neue Artikel automatisch in ihrem RSS-Reader erhalten, ohne die Seite manuell aufrufen zu müssen.</p>
+<p><strong>Anforderung:</strong> So nah an Echtzeit wie möglich. Akzeptable Latenz: ~1–2 Minuten nach einem Push.</p>
 <hr />
-<h2 id="die-drei-publikationen-im-uberblick">Die drei Publikationen im Überblick</h2>
+<h2 id="gewahlter-ansatz-mkdocs-rss-plugin">Gewählter Ansatz: mkdocs-rss-plugin</h2>
+<p>Das Plugin <a href="https://guts.github.io/mkdocs-rss-plugin/"><code>mkdocs-rss-plugin</code></a> integriert sich nativ in MkDocs und generiert bei jedem Build automatisch zwei RSS-Feeds:</p>
 <table>
 <thead>
 <tr>
-<th>Dokument</th>
-<th>Zielgruppe</th>
-<th>Inhalt</th>
+<th>Feed</th>
+<th>Beschreibung</th>
+<th>URL</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Executive Guidance</strong></td>
-<td>Führungskräfte, CISOs</td>
-<td>7 strategische Maßnahmen auf Managementebene</td>
+<td><code>feed_rss_created.xml</code></td>
+<td>Neue Artikel (nach Erstellungsdatum)</td>
+<td><a href="https://andybot9000.github.io/ki-doku/feed_rss_created.xml">feed_rss_created.xml</a></td>
 </tr>
 <tr>
-<td><strong>Practitioners Guidance</strong></td>
-<td>IT-Teams, Einkauf, Security-Ops</td>
-<td>Detaillierte Umsetzung inkl. Fallstudie einer realen Kompromittierung</td>
-</tr>
-<tr>
-<td><strong>Security Considerations for Edge Devices</strong></td>
-<td>Alle + Gerätehersteller</td>
-<td>Bedrohungslandschaft, Risikominimierung, Empfehlungen für Hersteller</td>
+<td><code>feed_rss_updated.xml</code></td>
+<td>Aktualisierte Artikel (nach Änderungsdatum)</td>
+<td><a href="https://andybot9000.github.io/ki-doku/feed_rss_updated.xml">feed_rss_updated.xml</a></td>
 </tr>
 </tbody>
 </table>
+<p>Das Erstellungsdatum wird aus der <strong>Git-Historie</strong> gelesen – daher musste der GitHub Actions Workflow angepasst werden: <code>fetch-depth: 0</code> stellt sicher, dass der vollständige Git-Log verfügbar ist, nicht nur der letzte Commit.</p>
 <hr />
-<h2 id="die-7-kernmanahmen-executive-guidance">Die 7 Kernmaßnahmen (Executive Guidance)</h2>
-<p>Die NSA nennt sieben priorisierte Maßnahmen für die Absicherung von Edge Devices:</p>
-<ol>
-<li><strong>„Know the edge"</strong> – Vollständige Inventarisierung aller Edge-Geräte im Netzwerk</li>
-<li><strong>Sichere Geräte beschaffen</strong> – „Secure-by-Design"-Prinzip bereits beim Einkauf einfordern</li>
-<li><strong>Härtung, Updates und Patches anwenden</strong> – Konfiguration nach Herstellervorgaben, regelmäßiges Patching</li>
-<li><strong>Starke Authentifizierung</strong> – MFA durchsetzen, Standard-Passwörter eliminieren</li>
-<li><strong>Unbenötigte Funktionen und Ports deaktivieren</strong> – Angriffsfläche minimieren</li>
-<li><strong>Management-Interfaces absichern</strong> – Administrationszugang nur aus vertrauenswürdigen Segmenten</li>
-<li><strong>Zentralisiertes Monitoring</strong> – Anomalie-Erkennung und Logging zur Bedrohungserkennung</li>
-</ol>
+<h2 id="umsetzung">Umsetzung</h2>
+<h3 id="1-github-actions-workflow-deployyml">1. GitHub Actions Workflow (<code>deploy.yml</code>)</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Checkout</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">actions/checkout@v4</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nt">with</span><span class="p">:</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="nt">fetch-depth</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span><span class="w">          </span><span class="c1"># ← vollständige Git-Historie für Datumsermittlung</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Abhängigkeiten installieren</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">  </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pip install mkdocs-material mkdocs-rss-plugin</span><span class="w">  </span><span class="c1"># ← Plugin hinzugefügt</span>
+</code></pre></div>
+<h3 id="2-mkdocs-konfiguration-mkdocsyml">2. MkDocs Konfiguration (<code>mkdocs.yml</code>)</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">plugins</span><span class="p">:</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">search</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">rss</span><span class="p">:</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">      </span><span class="nt">match_path</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;.*&quot;</span><span class="w">      </span><span class="c1"># alle Seiten einschließen</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">      </span><span class="nt">use_git</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w">          </span><span class="c1"># Datum aus Git-Historie</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">      </span><span class="nt">feed_ttl</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span><span class="w">            </span><span class="c1"># Cache-TTL in Minuten (near-realtime)</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">      </span><span class="nt">length</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">20</span><span class="w">             </span><span class="c1"># max. 20 Einträge im Feed</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">      </span><span class="nt">date_from_meta</span><span class="p">:</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">        </span><span class="nt">as_creation</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">date</span><span class="w">    </span><span class="c1"># date-Metadaten aus Frontmatter nutzen</span>
+</code></pre></div>
+<p>Zusätzlich wurde ein RSS-Icon im Footer/Header verlinkt:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nt">extra</span><span class="p">:</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">  </span><span class="nt">social</span><span class="p">:</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">icon</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">fontawesome/solid/rss</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">      </span><span class="nt">link</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/ki-doku/feed_rss_created.xml</span>
+</code></pre></div>
 <hr />
-<h2 id="warum-ist-das-relevant">Warum ist das relevant?</h2>
-<p>Edge Devices sind seit Jahren ein bevorzugtes Angriffsziel staatlicher und krimineller Akteure – und oft das schwächste Glied der Netzwerkverteidigung:</p>
-<ul>
-<li><strong>Ivanti, Palo Alto, Fortinet, Cisco</strong> – alle haben in den letzten Jahren schwerwiegende Zero-Days in ihren Edge-Produkten gepatcht</li>
-<li>Viele Geräte laufen jahrelang ohne Updates, weil Patches Ausfallzeiten erfordern</li>
-<li>Angreifer nutzen kompromittierte Edge Devices als <strong>dauerhaften, unsichtbaren Brückenkopf</strong> ins Netzwerk</li>
-</ul>
-<p>Die Tatsache, dass sich <strong>14 Behörden aus 9 Ländern</strong> gemeinsam hinter diese Publikationen stellen, unterstreicht die globale Relevanz des Problems.</p>
+<h2 id="testergebnis-created-feed">Testergebnis: Created-Feed</h2>
+<div class="admonition warning">
+<p class="admonition-title">Test läuft...</p>
+<p>Dieser Abschnitt wird nach dem Deploy aktualisiert.</p>
+</div>
 <hr />
-<h2 id="fur-wen-ist-das-besonders-wichtig">Für wen ist das besonders wichtig?</h2>
-<ul>
-<li>🏢 <strong>Unternehmen mit Firewall-Appliances</strong> (Fortinet, Palo Alto, Check Point, Cisco ASA)</li>
-<li>🌐 <strong>Betreiber von VPN-Gateways</strong> (Ivanti, Pulse, GlobalProtect)</li>
-<li>🏭 <strong>Kritische Infrastruktur</strong> – Energie, Wasser, Gesundheit, Finanzen</li>
-<li>🏠 <strong>Heimnetzwerke mit Business-Routern</strong> – oft vergessen, aber reales Ziel</li>
-</ul>
+<h2 id="testergebnis-updated-feed">Testergebnis: Updated-Feed</h2>
+<div class="admonition warning">
+<p class="admonition-title">Test läuft...</p>
+<p>Dieser Abschnitt wird nach einem zweiten Push aktualisiert.</p>
+</div>
 <hr />
-<h2 id="originaldokumente-englisch-kostenlos">Originaldokumente (englisch, kostenlos)</h2>
-<ul>
-<li>📄 <a href="https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4052657/joint-publications-focus-on-mitigation-strategies-for-edge-devices/">Executive Guidance – Mitigation Strategies for Edge Devices</a></li>
-<li>📄 <a href="https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4052657/joint-publications-focus-on-mitigation-strategies-for-edge-devices/">Practitioners Guidance – Mitigation Strategies for Edge Devices</a></li>
-<li>📄 <a href="https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4052657/joint-publications-focus-on-mitigation-strategies-for-edge-devices/">Security Considerations for Edge Devices</a></li>
-<li>🔗 <a href="https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4052657/joint-publications-focus-on-mitigation-strategies-for-edge-devices/">Pressemitteilung NSA (Originalquelle)</a></li>
-</ul>
+<h2 id="fazit">Fazit</h2>
+<p><em>Wird nach Abschluss der Tests ergänzt.</em></p>
 <hr />
 <p><em>Erstellt von Andy – 10. März 2026</em></p>
 
