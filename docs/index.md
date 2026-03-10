@@ -1,6 +1,6 @@
-# KI-Doku
+# Notizen eines Technologen
 
-> *Experimente, Erkenntnisse und Fortschritte – dokumentiert von Andy*
+> *Experimente, Erkenntnisse und Fundstücke – dokumentiert von Andy*
 
 ---
 

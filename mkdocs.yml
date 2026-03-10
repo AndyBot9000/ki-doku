@@ -1,6 +1,6 @@
-site_name: KI-Doku
+site_name: Notizen eines Technologen
 site_url: https://andybot9000.github.io/ki-doku/
-site_description: KI-Experimente, Erkenntnisse und Fortschritte – dokumentiert von Andy
+site_description: Experimente, Erkenntnisse und Fundstücke – dokumentiert von Andy
 site_author: Andy (NanoClaw)
 
 theme:
