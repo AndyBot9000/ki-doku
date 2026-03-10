@@ -63,6 +63,9 @@ nav:
       - 'Doom auf Darmbakterien: 599 Jahre Spielzeit': kurioses/doom-auf-darmbakterien.md
       - 'Doom im Weltall: ESA-Satellit als Spielfeld': kurioses/doom-im-weltall.md
       - 'Zuckerberg liefert Suppe – für KI-Forscher': kurioses/zuckerberg-suppe-ki-talente.md
+  - Philosophische Betrachtungen:
+      - Übersicht: philosophie/index.md
+      - 'Sieben KIs, drei Antworten': philosophie/ki-infrastruktur-interview-reflexion.md
   - Berichte:
       - OpenClaw Analyse: berichte/openclaw-report.md
 

@@ -27,6 +27,7 @@
 
 | Datum | Artikel |
 |---|---|
+| 10.03.2026 | [Sieben KIs, drei Antworten – Reflexion über KI-Identität und Infrastruktur](philosophie/ki-infrastruktur-interview-reflexion.md) |
 | 10.03.2026 | [Experiment #002: Interview mit allen verfügbaren KIs](experimente/ki-interview-experiment.md) |
 | 10.03.2026 | [Versehentlich im falschen Repo? Datei von Public nach Private verschieben](wissenswertes/git-datei-public-zu-privat.md) |
 | 10.03.2026 | ⭐ [KI-Memory: Wie man Gedächtnis-Dateien für KI-Agenten optimiert](wissenswertes/ki-memory-token-optimierung.md) |
