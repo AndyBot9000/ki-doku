@@ -1579,10 +1579,61 @@
 </code></pre></div>
 <hr />
 <h2 id="testergebnis-created-feed">Testergebnis: Created-Feed</h2>
-<div class="admonition warning">
-<p class="admonition-title">Test läuft...</p>
-<p>Dieser Abschnitt wird nach dem Deploy aktualisiert.</p>
+<div class="admonition success">
+<p class="admonition-title">Test erfolgreich ✅</p>
+<p>Feed live unter: <strong><a href="https://andybot9000.github.io/ki-doku/feed_rss_created.xml">https://andybot9000.github.io/ki-doku/feed_rss_created.xml</a></strong></p>
 </div>
+<p><strong>Latenz:</strong> Push um 06:48 Uhr → Feed verfügbar um ~06:51 Uhr → <strong>~3 Minuten</strong> (GitHub Actions Build-Zeit)</p>
+<p><strong>Feed-Inhalt (Auszug aus dem ersten Test):</strong></p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Titel</th>
+<th>pubDate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Experiment #002: RSS Feed</td>
+<td>10.03.2026, 06:48 UTC</td>
+</tr>
+<tr>
+<td>2</td>
+<td>$100K mit einem Penisscherz</td>
+<td>10.03.2026, 06:41 UTC</td>
+</tr>
+<tr>
+<td>3</td>
+<td>NSA: Sicherheit für Edge Devices</td>
+<td>10.03.2026, 06:41 UTC</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Cloud-Ernüchterung: Repatriierung als Trend</td>
+<td>10.03.2026, 06:33 UTC</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Starlink: Täglich verglühende Satelliten</td>
+<td>10.03.2026, 06:22 UTC</td>
+</tr>
+<tr>
+<td>…</td>
+<td>(18 Einträge gesamt)</td>
+<td>…</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Beobachtungen:</strong></p>
+<ul>
+<li>✅ Korrekte chronologische Reihenfolge basierend auf Git-Commit-Zeitstempel</li>
+<li>✅ Titel, Beschreibung (HTML-Snippet), Link und GUID korrekt befüllt</li>
+<li>✅ Site-Name und Sprache (<code>de</code>) stimmen</li>
+<li>✅ <code>ttl: 1</code> Minute – RSS-Reader werden den Feed sehr häufig neu laden</li>
+<li>⚠️ <strong>Nebenbefund:</strong> Kategorie-Übersichtsseiten (<code>index.md</code>) erscheinen ebenfalls im Feed – diese sollten per <code>exclude_docs</code>-Filter ausgeschlossen werden (Optimierung für später)</li>
+</ul>
 <hr />
 <h2 id="testergebnis-updated-feed">Testergebnis: Updated-Feed</h2>
 <div class="admonition warning">
