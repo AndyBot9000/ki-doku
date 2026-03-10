@@ -8,11 +8,11 @@
 
 | Datum | Artikel |
 |---|---|
+| 10.03.2026 | [Eigenes AS & BGP auf FreeBSD mit FRR, GRE-Tunneln und Policy Routing](wissenswertes/eigenes-as-bgp-freebsd.md) |
 | 10.03.2026 | [Telegram KI-Bots 2026: Claude, Gemini und Grok im Vergleich](wissenswertes/telegram-ki-bots.md) *(inkl. Interview-Versuch mit Gemini)* |
 | 10.03.2026 | [Prompt Caching für PicoClaw: API-Kosten senken auf Embedded-Hardware](wissenswertes/prompt-caching-picoclaw.md) |
 | 09.03.2026 | [Prompt Caching für NanoClaw: 90 % Kosten sparen](wissenswertes/prompt-caching-nanoclaw.md) |
 | 09.03.2026 | [Wie man profitable Preis-Experimente durchführt](wissenswertes/pricing-experiments.md) |
-| 09.03.2026 | [Experiment #001: Dieses Projekt aufsetzen](experimente/index.md) |
 
 ---
 

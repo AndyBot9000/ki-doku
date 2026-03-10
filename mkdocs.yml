@@ -44,6 +44,7 @@ nav:
       - 'Prompt Caching für NanoClaw: 90 % Kosten sparen': wissenswertes/prompt-caching-nanoclaw.md
       - 'Prompt Caching für PicoClaw: Embedded-Hardware': wissenswertes/prompt-caching-picoclaw.md
       - 'Telegram KI-Bots: Claude, Gemini & Grok': wissenswertes/telegram-ki-bots.md
+      - 'Eigenes AS & BGP auf FreeBSD mit FRR': wissenswertes/eigenes-as-bgp-freebsd.md
   - Berichte:
       - OpenClaw Analyse: berichte/openclaw-report.md
 
