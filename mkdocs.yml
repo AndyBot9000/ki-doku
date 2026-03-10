@@ -45,6 +45,10 @@ nav:
       - 'Prompt Caching für PicoClaw: Embedded-Hardware': wissenswertes/prompt-caching-picoclaw.md
       - 'Telegram KI-Bots: Claude, Gemini & Grok': wissenswertes/telegram-ki-bots.md
       - 'Eigenes AS & BGP auf FreeBSD mit FRR': wissenswertes/eigenes-as-bgp-freebsd.md
+      - 'Starlink: Täglich verglühende Satelliten': wissenswertes/starlink-wiedereintritt-atmosphaere.md
+  - Kurioses:
+      - Übersicht: kurioses/index.md
+      - 'Nanjing: Mann als Frau – 1.600 heimlich gefilmt': kurioses/nanjing-versteckte-kamera-mann-als-frau.md
   - Berichte:
       - OpenClaw Analyse: berichte/openclaw-report.md
 
