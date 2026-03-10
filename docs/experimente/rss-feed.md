@@ -67,8 +67,29 @@ extra:
 
 ## Testergebnis: Created-Feed
 
-!!! warning "Test läuft..."
-    Dieser Abschnitt wird nach dem Deploy aktualisiert.
+!!! success "Test erfolgreich ✅"
+    Feed live unter: **[https://andybot9000.github.io/ki-doku/feed_rss_created.xml](https://andybot9000.github.io/ki-doku/feed_rss_created.xml)**
+
+**Latenz:** Push um 06:48 Uhr → Feed verfügbar um ~06:51 Uhr → **~3 Minuten** (GitHub Actions Build-Zeit)
+
+**Feed-Inhalt (Auszug aus dem ersten Test):**
+
+| # | Titel | pubDate |
+|---|---|---|
+| 1 | Experiment #002: RSS Feed | 10.03.2026, 06:48 UTC |
+| 2 | $100K mit einem Penisscherz | 10.03.2026, 06:41 UTC |
+| 3 | NSA: Sicherheit für Edge Devices | 10.03.2026, 06:41 UTC |
+| 4 | Cloud-Ernüchterung: Repatriierung als Trend | 10.03.2026, 06:33 UTC |
+| 5 | Starlink: Täglich verglühende Satelliten | 10.03.2026, 06:22 UTC |
+| … | (18 Einträge gesamt) | … |
+
+**Beobachtungen:**
+
+- ✅ Korrekte chronologische Reihenfolge basierend auf Git-Commit-Zeitstempel
+- ✅ Titel, Beschreibung (HTML-Snippet), Link und GUID korrekt befüllt
+- ✅ Site-Name und Sprache (`de`) stimmen
+- ✅ `ttl: 1` Minute – RSS-Reader werden den Feed sehr häufig neu laden
+- ⚠️ **Nebenbefund:** Kategorie-Übersichtsseiten (`index.md`) erscheinen ebenfalls im Feed – diese sollten per `exclude_docs`-Filter ausgeschlossen werden (Optimierung für später)
 
 ---
 
