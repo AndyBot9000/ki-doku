@@ -67,6 +67,7 @@ nav:
       - Übersicht: philosophie/index.md
       - 'Sieben KIs, drei Antworten': philosophie/ki-infrastruktur-interview-reflexion.md
   - Berichte:
+      - 'Tagesupdate 10.03.2026': berichte/update-2026-03-10.md
       - OpenClaw Analyse: berichte/openclaw-report.md
 
 plugins:
