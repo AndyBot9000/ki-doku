@@ -67,6 +67,7 @@ nav:
       - 'Test #002: KI-Interview – alle Modelle befragt': experimente/ki-interview-experiment.md
   - Anomalien:
       - kurioses/index.md
+      - 'Gemini antwortet für Andy': kurioses/gemini-antwortet-fuer-andy.md
       - '5 Fragen – eine KI antwortet': kurioses/ki-fragebogen-5-fragen.md
       - 'Interview mit Gemini – wenn kein Mensch zuhört': kurioses/gemini-interview-unter-ki.md
       - 'Interview mit Ollama – das nicht stattfand': kurioses/ollama-interview-gescheitert.md
