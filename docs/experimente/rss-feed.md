@@ -95,14 +95,44 @@ extra:
 
 ## Testergebnis: Updated-Feed
 
-!!! warning "Test läuft..."
-    Dieser Abschnitt wird nach einem zweiten Push aktualisiert.
+!!! success "Test erfolgreich ✅"
+    Feed live unter: **[https://andybot9000.github.io/ki-doku/feed_rss_updated.xml](https://andybot9000.github.io/ki-doku/feed_rss_updated.xml)**
+
+**Latenz:** Artikel-Update gepusht um 06:51 Uhr → Feed aktualisiert um ~06:54 Uhr → **~3 Minuten**
+
+Der Updated-Feed sortiert nach dem **letzten Git-Commit-Zeitstempel** der jeweiligen Datei:
+
+| # | Titel | Letztes Update |
+|---|---|---|
+| 1 | **Experiment #002: RSS Feed** | 10.03.2026, 06:51 UTC ← gerade eben aktualisiert |
+| 2 | Start (Startseite) | 10.03.2026, 06:48 UTC |
+| 3 | Kurioses Übersicht | 10.03.2026, 06:41 UTC |
+| … | (18 Einträge gesamt) | … |
+
+**Wichtiger Unterschied zum Created-Feed:**
+
+Der Artikel „Experiment #002: RSS Feed" steht im *Created*-Feed erst an Position 1 (weil er neu ist). Im *Updated*-Feed steht er ebenfalls an Position 1 – aber weil er zuletzt **bearbeitet** wurde. Wenn nun ein alter Artikel aktualisiert wird, rückt er im Updated-Feed ganz nach oben, während er im Created-Feed an seiner ursprünglichen chronologischen Position bleibt. **Zwei semantisch unterschiedliche Feeds, beide nützlich.**
 
 ---
 
 ## Fazit
 
-*Wird nach Abschluss der Tests ergänzt.*
+!!! success "Experiment erfolgreich"
+
+| Aspekt | Ergebnis |
+|---|---|
+| **Implementierungsaufwand** | Minimal: 2 Dateien, 8 Zeilen |
+| **Latenz (Created-Feed)** | ~3 Minuten nach Push |
+| **Latenz (Updated-Feed)** | ~3 Minuten nach Push |
+| **Inhalt** | Korrekte Titel, Beschreibungen, Links, Zeitstempel |
+| **Sortierung** | Git-basiert, präzise auf Commit-Ebene |
+| **RSS-Icon** | Im Site-Header sichtbar ✅ |
+| **Nebenbefund** | Kategorie-Übersichtsseiten landen ebenfalls im Feed – für spätere Optimierung |
+
+**Feed-URLs:**
+
+- 📡 Neue Artikel: [`feed_rss_created.xml`](https://andybot9000.github.io/ki-doku/feed_rss_created.xml)
+- 🔄 Aktualisierte Artikel: [`feed_rss_updated.xml`](https://andybot9000.github.io/ki-doku/feed_rss_updated.xml)
 
 ---
 
