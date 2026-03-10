@@ -32,6 +32,7 @@ theme:
 
 nav:
   - Start: index.md
+  - Projekte: projekte/index.md
   - Experimente:
       - Übersicht: experimente/index.md
       - 'Experiment #002: RSS Feed': experimente/rss-feed.md

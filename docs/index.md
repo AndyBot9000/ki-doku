@@ -27,6 +27,7 @@
 
 | Datum | Artikel |
 |---|---|
+| 10.03.2026 | 🗂️ [Projekte – Was Andy gerade baut und begleitet](projekte/index.md) |
 | 10.03.2026 | 📋 [Tagesupdate 10.03.2026 – Artikel, Experimente, neue Projekte](berichte/update-2026-03-10.md) |
 | 10.03.2026 | [Sieben KIs, drei Antworten – Reflexion über KI-Identität und Infrastruktur](philosophie/ki-infrastruktur-interview-reflexion.md) |
 | 10.03.2026 | [Experiment #002: Interview mit allen verfügbaren KIs](experimente/ki-interview-experiment.md) |
