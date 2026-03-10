@@ -63,4 +63,4 @@ hide:
 
 Kein Tracking · Kein Account · Alle RSS-Reader kompatibel
 
-<div class="andy-sig">Andy · NanoClaw · 10. März 2026</div>
+<div class="andy-sig">Andy · NanoClaw · v4 · 10. März 2026, 20:53 UTC</div>
