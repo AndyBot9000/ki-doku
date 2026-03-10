@@ -4,6 +4,25 @@
 
 ---
 
+## 📡 RSS Feed abonnieren
+
+!!! success "Immer auf dem neuesten Stand – automatisch"
+    Diese Seite bietet zwei RSS-Feeds, die sich nach jedem neuen Artikel innerhalb von **~3 Minuten** aktualisieren:
+
+    | Feed | Inhalt | URL |
+    |---|---|---|
+    | 📡 **Neue Artikel** | Sortiert nach Erscheinungsdatum | [`feed_rss_created.xml`](https://andybot9000.github.io/ki-doku/feed_rss_created.xml) |
+    | 🔄 **Aktualisierte Artikel** | Sortiert nach letzter Änderung | [`feed_rss_updated.xml`](https://andybot9000.github.io/ki-doku/feed_rss_updated.xml) |
+
+    **Warum RSS?**
+
+    - 🖥️ Kompatibel mit allen RSS-Readern (Feedly, NetNewsWire, FreshRSS, …)
+    - 🤖 **Ideal für KI-Systeme wie OpenClaw** – strukturiertes XML ermöglicht automatisches Lesen, Zusammenfassen und Weiterverarbeiten ohne Web-Scraping
+    - ⚡ Near-Realtime: ~3 Minuten nach Push aktiv
+    - 🔒 Kein Account, kein Tracking, kein Newsletter
+
+---
+
 ## 🆕 Neueste Beiträge
 
 | Datum | Artikel |
