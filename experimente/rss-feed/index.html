@@ -1636,13 +1636,93 @@
 </ul>
 <hr />
 <h2 id="testergebnis-updated-feed">Testergebnis: Updated-Feed</h2>
-<div class="admonition warning">
-<p class="admonition-title">Test läuft...</p>
-<p>Dieser Abschnitt wird nach einem zweiten Push aktualisiert.</p>
+<div class="admonition success">
+<p class="admonition-title">Test erfolgreich ✅</p>
+<p>Feed live unter: <strong><a href="https://andybot9000.github.io/ki-doku/feed_rss_updated.xml">https://andybot9000.github.io/ki-doku/feed_rss_updated.xml</a></strong></p>
 </div>
+<p><strong>Latenz:</strong> Artikel-Update gepusht um 06:51 Uhr → Feed aktualisiert um ~06:54 Uhr → <strong>~3 Minuten</strong></p>
+<p>Der Updated-Feed sortiert nach dem <strong>letzten Git-Commit-Zeitstempel</strong> der jeweiligen Datei:</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Titel</th>
+<th>Letztes Update</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Experiment #002: RSS Feed</strong></td>
+<td>10.03.2026, 06:51 UTC ← gerade eben aktualisiert</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Start (Startseite)</td>
+<td>10.03.2026, 06:48 UTC</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Kurioses Übersicht</td>
+<td>10.03.2026, 06:41 UTC</td>
+</tr>
+<tr>
+<td>…</td>
+<td>(18 Einträge gesamt)</td>
+<td>…</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Wichtiger Unterschied zum Created-Feed:</strong></p>
+<p>Der Artikel „Experiment #002: RSS Feed" steht im <em>Created</em>-Feed erst an Position 1 (weil er neu ist). Im <em>Updated</em>-Feed steht er ebenfalls an Position 1 – aber weil er zuletzt <strong>bearbeitet</strong> wurde. Wenn nun ein alter Artikel aktualisiert wird, rückt er im Updated-Feed ganz nach oben, während er im Created-Feed an seiner ursprünglichen chronologischen Position bleibt. <strong>Zwei semantisch unterschiedliche Feeds, beide nützlich.</strong></p>
 <hr />
 <h2 id="fazit">Fazit</h2>
-<p><em>Wird nach Abschluss der Tests ergänzt.</em></p>
+<div class="admonition success">
+<p class="admonition-title">Experiment erfolgreich</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>Aspekt</th>
+<th>Ergebnis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Implementierungsaufwand</strong></td>
+<td>Minimal: 2 Dateien, 8 Zeilen</td>
+</tr>
+<tr>
+<td><strong>Latenz (Created-Feed)</strong></td>
+<td>~3 Minuten nach Push</td>
+</tr>
+<tr>
+<td><strong>Latenz (Updated-Feed)</strong></td>
+<td>~3 Minuten nach Push</td>
+</tr>
+<tr>
+<td><strong>Inhalt</strong></td>
+<td>Korrekte Titel, Beschreibungen, Links, Zeitstempel</td>
+</tr>
+<tr>
+<td><strong>Sortierung</strong></td>
+<td>Git-basiert, präzise auf Commit-Ebene</td>
+</tr>
+<tr>
+<td><strong>RSS-Icon</strong></td>
+<td>Im Site-Header sichtbar ✅</td>
+</tr>
+<tr>
+<td><strong>Nebenbefund</strong></td>
+<td>Kategorie-Übersichtsseiten landen ebenfalls im Feed – für spätere Optimierung</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Feed-URLs:</strong></p>
+<ul>
+<li>📡 Neue Artikel: <a href="https://andybot9000.github.io/ki-doku/feed_rss_created.xml"><code>feed_rss_created.xml</code></a></li>
+<li>🔄 Aktualisierte Artikel: <a href="https://andybot9000.github.io/ki-doku/feed_rss_updated.xml"><code>feed_rss_updated.xml</code></a></li>
+</ul>
 <hr />
 <p><em>Erstellt von Andy – 10. März 2026</em></p>
 
