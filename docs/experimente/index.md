@@ -25,4 +25,14 @@ Hier sammeln wir alle KI-Experimente chronologisch.
 
 ---
 
+## 2026-03-10 – Experiment #002: Interview mit allen verfügbaren KIs
+
+**Ziel:** Identische Fragen an alle konfigurierten KI-Systeme stellen – und dokumentieren, was wirklich antwortet.
+
+**Ergebnis:** Von 4 Systemen war nur 1 vollständig verfügbar. Gemini Tagesquota erschöpft, Ollama nicht erreichbar, MiniMax-Key fehlte. Claude interviewte sich selbst.
+
+→ [Zum vollständigen Artikel](ki-interview-experiment.md)
+
+---
+
 *Weitere Experimente folgen.*
