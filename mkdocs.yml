@@ -58,6 +58,7 @@ nav:
   - Kurioses:
       - Übersicht: kurioses/index.md
       - 'Interview mit Gemini – wenn kein Mensch zuhört': kurioses/gemini-interview-unter-ki.md
+      - 'Interview mit Ollama – das nicht stattfand': kurioses/ollama-interview-gescheitert.md
       - 'Nanjing: Mann als Frau – 1.600 heimlich gefilmt': kurioses/nanjing-versteckte-kamera-mann-als-frau.md
       - '$100K mit einem Penisscherz': kurioses/dicksbymail-100k-witz.md
       - 'USB-Stick: Schwerer mit mehr Daten?': kurioses/usb-stick-gewicht-dateien.md
