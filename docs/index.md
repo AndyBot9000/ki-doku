@@ -8,6 +8,8 @@
 
 | Datum | Artikel |
 |---|---|
+| 10.03.2026 | [Wie man mit einem Penisscherz 100.000 Dollar verdient](kurioses/dicksbymail-100k-witz.md) |
+| 10.03.2026 | [NSA & Partner: Sicherheitsleitfäden für Edge Devices](wissenswertes/nsa-edge-device-sicherheit.md) |
 | 10.03.2026 | [Cloud-Ernüchterung: Immer mehr Unternehmen verlassen die Cloud](news/cloud-repatriierung-ernuechterung.md) |
 | 10.03.2026 | [Nanjing: Mann als Frau verkleidet – über 1.600 heimlich gefilmt](kurioses/nanjing-versteckte-kamera-mann-als-frau.md) |
 | 10.03.2026 | [Täglich 1–2 Starlink-Satelliten verglühen in der Atmosphäre](wissenswertes/starlink-wiedereintritt-atmosphaere.md) |

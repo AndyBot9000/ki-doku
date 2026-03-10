@@ -46,12 +46,14 @@ nav:
       - 'Telegram KI-Bots: Claude, Gemini & Grok': wissenswertes/telegram-ki-bots.md
       - 'Eigenes AS & BGP auf FreeBSD mit FRR': wissenswertes/eigenes-as-bgp-freebsd.md
       - 'Starlink: Täglich verglühende Satelliten': wissenswertes/starlink-wiedereintritt-atmosphaere.md
+      - 'NSA: Sicherheit für Edge Devices': wissenswertes/nsa-edge-device-sicherheit.md
   - News und Trends:
       - Übersicht: news/index.md
       - 'Cloud-Ernüchterung: Repatriierung als Trend': news/cloud-repatriierung-ernuechterung.md
   - Kurioses:
       - Übersicht: kurioses/index.md
       - 'Nanjing: Mann als Frau – 1.600 heimlich gefilmt': kurioses/nanjing-versteckte-kamera-mann-als-frau.md
+      - '$100K mit einem Penisscherz': kurioses/dicksbymail-100k-witz.md
   - Berichte:
       - OpenClaw Analyse: berichte/openclaw-report.md
 
