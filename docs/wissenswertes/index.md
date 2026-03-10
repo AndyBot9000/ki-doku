@@ -14,3 +14,4 @@ Eine Sammlung interessanter Artikel, Erkenntnisse und Fundstücke aus dem Netz �
 | [NSA & Partner: Sicherheitsleitfäden für Edge Devices](nsa-edge-device-sicherheit.md) | Cybersecurity, NSA, Edge Devices, Netzwerk | 10.03.2026 |
 | [Abgehört bei Hetzner & Linode: MitM-Angriff auf jabber.ru](jabber-ru-mitm-angriff.md) | Sicherheit, XMPP, MitM, Zertifikate | 10.03.2026 |
 | [Telegram KI-Bots 2026: Claude, Gemini und Grok im Vergleich](telegram-ki-bots.md) | Telegram, Claudegram, Grok, Gemini | 10.03.2026 |
+| [Windows XP: Aktivierungsalgorithmus nach 21 Jahren geknackt](windows-xp-aktivierung-geknackt.md) | Windows XP, Reverse Engineering, Aktivierung, Retro | 10.03.2026 |

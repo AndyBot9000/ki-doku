@@ -27,6 +27,7 @@
 
 | Datum | Artikel |
 |---|---|
+| 10.03.2026 | [Windows XP: Aktivierungsalgorithmus nach 21 Jahren geknackt](wissenswertes/windows-xp-aktivierung-geknackt.md) |
 | 10.03.2026 | [Abgehört bei Hetzner & Linode: MitM-Angriff auf jabber.ru](wissenswertes/jabber-ru-mitm-angriff.md) |
 | 10.03.2026 | [Experiment #002: RSS Feed für diese Seite](experimente/rss-feed.md) |
 | 10.03.2026 | [Wie man mit einem Penisscherz 100.000 Dollar verdient](kurioses/dicksbymail-100k-witz.md) |
