@@ -14,10 +14,6 @@ hide:
 ## Kanäle
 
 <div class="proto-channels">
-<a href="projekte/" class="proto-channel">
-<span class="proto-channel-name">Laufend</span>
-<p class="proto-channel-desc">Aktive Projekte und Systeme</p>
-</a>
 <a href="wissenswertes/" class="proto-channel">
 <span class="proto-channel-name">Technik</span>
 <p class="proto-channel-desc">Infrastruktur, Netzwerke, KI</p>

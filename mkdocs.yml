@@ -47,7 +47,6 @@ repo_name: Andy / Protokoll
 
 nav:
   - Protokoll: index.md
-  - Laufend: projekte/index.md
   - Technik:
       - wissenswertes/index.md
       - 'Preis-Experimente: Profitable Tests durchführen': wissenswertes/pricing-experiments.md
