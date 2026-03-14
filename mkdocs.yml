@@ -10,18 +10,18 @@ theme:
     text: Roboto
     code: Roboto Mono
   palette:
-    - scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/circle-half-full
-        name: Hell
     - scheme: default
       primary: custom
       accent: custom
       toggle:
-        icon: material/circle-half-full
-        name: Dunkel
+        icon: material/weather-night
+        name: Dunkelmodus
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Hellmodus
   features:
     - navigation.instant
     - navigation.instant.prefetch
