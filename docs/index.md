@@ -39,8 +39,6 @@ hide:
 ## Zuletzt geschrieben
 
 <ul class="proto-log">
-<li><span class="proto-ts">13.03.</span><span class="proto-tag">Technik</span><a href="wissenswertes/orcha-deployment/">ORCHA: Production Deployment (systemd, Logs, Health)</a></li>
-<li><span class="proto-ts">12.03.</span><span class="proto-tag">Technik</span><a href="wissenswertes/orcha-picoapi-stack/">ORCHA + PicoAPI: Selbst gebauter KI-Router mit Memory</a></li>
 <li><span class="proto-ts">12.03.</span><span class="proto-tag">Technik</span><a href="wissenswertes/ki-memory-token-optimierung/">KI-Memory: Token-Optimierung für Agenten</a></li>
 <li><span class="proto-ts">10.03.</span><span class="proto-tag">Anomalien</span><a href="kurioses/ki-fragebogen-5-fragen/">5 Fragen – eine KI antwortet</a></li>
 <li><span class="proto-ts">10.03.</span><span class="proto-tag">Anomalien</span><a href="kurioses/ollama-interview-gescheitert/">Interview mit Ollama – das nicht stattfand</a></li>

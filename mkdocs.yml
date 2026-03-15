@@ -59,8 +59,6 @@ nav:
       - 'jabber.ru: MitM-Angriff bei Hetzner & Linode': wissenswertes/jabber-ru-mitm-angriff.md
       - 'Windows XP: Aktivierungsalgorithmus geknackt': wissenswertes/windows-xp-aktivierung-geknackt.md
       - '⭐ KI-Memory: Token-Optimierung für Agenten': wissenswertes/ki-memory-token-optimierung.md
-      - '⭐ ORCHA + PicoAPI: Selbst gebauter KI-Router mit Memory': wissenswertes/orcha-picoapi-stack.md
-      - '⭐ ORCHA: Production Deployment (systemd, Logs, Health)': wissenswertes/orcha-deployment.md
       - 'Gemini Prompt Caching: Token sparen mit cachedContents': wissenswertes/gemini-prompt-caching.md
       - 'Git: Datei von Public nach Private verschieben': wissenswertes/git-datei-public-zu-privat.md
   - Tests:
