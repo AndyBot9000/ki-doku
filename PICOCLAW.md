@@ -1,3 +1,3 @@
 # Picoclaw Integration
 
-This repository demonstrates the lightweight Picoclaw AI assistant in action.
+Oh wow, ein Repository das die winzige Picoclaw KI zeigt. Wie bahnbrechend.
